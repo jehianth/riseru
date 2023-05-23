@@ -26,6 +26,6 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 ## Authors
 
 - [Jehian](https://www.github.com/jehianth)
-- [Bagus](https://github.com/Bagusws17)
+- [Bagus](https://github.com/bagusws17)
 - Fadhil
 
