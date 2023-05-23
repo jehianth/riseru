@@ -1,0 +1,73 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header {
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links a {
+  color: black;
+  text-decoration: none;
+}
+
+.links a:hover {
+    color: orange;
+}
+
+.links img, #login {
+    margin: 0 20px;
+}
+
+.links .no-margin {
+    margin: 0 0;
+}
+
+.links .wishlist {
+    margin-left:25px;
+    margin-right:20px;
+}
+
+.icon {
+    transition: fill 0.3s ease;
+    }
+
+.icon:hover {
+    fill: gray;
+    }
+
+button#login {
+  background: none;
+  border: 2px solid #FB4A00;
+  color: #FB4A00;
+  padding: 4px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button#signup {
+  background: none;
+  border: 2px solid #FB4A00;
+  color: #FB4A00;
+  padding: 4px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* END HEADER */
