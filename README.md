@@ -1,3 +1,4 @@
+![logo](https://github.com/jehianth/riseru/assets/55863992/a884b28b-50ba-46e4-90d4-526e392242f4)
 
 # Riseru Hobby Shop Website
 
