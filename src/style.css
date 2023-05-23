@@ -81,37 +81,31 @@ button.orange, button#login:hover {
 
 section#hero {
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin-bottom: -7px;
 }
 
 #bg-hero {
   width: 100%;
   height: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; /* Membuat gambar berada di bawah elemen h4 */
 }
 
-h1, span, button#catalog {
+.title-hero, .span-hero, button#catalog {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 2; /* Membuat elemen h4 berada di atas gambar */
-  color: white; /* Mengatur warna teks menjadi putih */
-  text-align: center; /* Mengatur align horizontal menjadi center */
+  color: white;
+  text-align: center;
 }
 
-h1 {
-  top: 74px; /* Menambahkan margin top 74px */
+.title-hero {
+  top: 74px;
   font-weight: 600;
   font-size: 60px;
   white-space: nowrap;
 }
 
-span {
-  top: 129px; /* Menambahkan margin top 74px */
+.span-hero {
+  top: 129px;
   font-weight: 600;
   font-size: 14px;
   margin-top: 25px;
@@ -119,7 +113,7 @@ span {
 }
 
 button#catalog {
-  top: 210px; /* Menambahkan margin top 74px */
+  top: 210px;
   font-weight: 400;
   font-size: 16px;
   display: flex;
@@ -134,3 +128,37 @@ button#catalog .icon {
 }
 
 /* END SECTION HERO */
+
+/* SECTION QUOTES */
+
+#quotes {
+  background-color: #4D4D4D;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quotes .span-quotes {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+/* END SECTION QUOTES */
+
+/* SECTION OVERVIEW */
+
+#overview {
+  padding-top: 100px;
+  padding-bottom: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#overview 
+
+/* END SECTION OVERVIEW */
