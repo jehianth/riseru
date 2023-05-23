@@ -11,11 +11,7 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/b21482e8c0.js" crossorigin="anonymous"></script>
-    <script>
-        function goToLink(url) {
-            window.location.href = url;
-        }
-    </script>
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
@@ -37,19 +33,20 @@
                 <img class="wishlist icon" src="../images/wishlist.svg" onclick="goToLink('#wishlist')">
                 <img class="no-margin" src="../images/line-vertical-longer.svg">
                 <button id="login">Log In</button>
-                <button id="signup">Sign Up</button>
+                <button class="orange" id="signup">Sign Up</button>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h4>Hero Section</h4>
-            <article>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
-                </figure>
-            </article>
+        <section id="hero">
+            <img src="../images/background.svg" id="bg-hero">
+            <h1>Elegant, Classy, Futuristic.</h1>
+            <span>Introducing Tesla Model Y, an autopilot car that advanced safety and convenience features to<br>assist you with the most burdensome parts of driving.</span>
+            <button class="orange" id="catalog">
+                <img src="../images/play.svg" class="icon">
+                Buy Now
+            </button>
+
         </section>
     </main>
     <footer>

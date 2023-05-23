@@ -31,7 +31,7 @@ nav {
     color: orange;
 }
 
-.links img, #login {
+.links img {
     margin: 0 20px;
 }
 
@@ -44,6 +44,10 @@ nav {
     margin-right:20px;
 }
 
+.links #login {
+  margin: 3px 10px 3px 20px;
+}
+
 .icon {
     transition: fill 0.3s ease;
     }
@@ -52,22 +56,81 @@ nav {
     fill: gray;
     }
 
-button#login {
+button#login, button.orange:hover {
   background: none;
-  border: 2px solid #FB4A00;
+  border: none;
+  box-shadow: inset 0 0 0 1.5px #FB4A00;
   color: #FB4A00;
   padding: 4px 24px;
   border-radius: 6px;
   font-size: 16px;
 }
 
-button#signup {
-  background: none;
-  border: 2px solid #FB4A00;
-  color: #FB4A00;
+button.orange, button#login:hover {
+  background-color: #FB4A00;
+  color: white;
+  border: none;
   padding: 4px 24px;
   border-radius: 6px;
   font-size: 16px;
 }
 
 /* END HEADER */
+
+/* SECTION HERO */
+
+section#hero {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+#bg-hero {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Membuat gambar berada di bawah elemen h4 */
+}
+
+h1, span, button#catalog {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Membuat elemen h4 berada di atas gambar */
+  color: white; /* Mengatur warna teks menjadi putih */
+  text-align: center; /* Mengatur align horizontal menjadi center */
+}
+
+h1 {
+  top: 74px; /* Menambahkan margin top 74px */
+  font-weight: 600;
+  font-size: 60px;
+  white-space: nowrap;
+}
+
+span {
+  top: 129px; /* Menambahkan margin top 74px */
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 19px;
+}
+
+button#catalog {
+  top: 210px; /* Menambahkan margin top 74px */
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 4px 24px;
+  border-radius: 6px;
+}
+
+button#catalog .icon {
+  margin-right: 8px;
+}
+
+/* END SECTION HERO */
