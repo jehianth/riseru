@@ -370,3 +370,38 @@ button#catalog .icon {
 }
 
 /* END SECTION ABOUT */
+
+/* SECTION PAYMENT */
+
+#payment {
+  background-color: #EFEFEF;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#payment .span-payment {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -5px;
+}
+
+#payment h3 {
+  font-weight: 600;
+}
+
+#payment > article {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual-acc {
+  margin-right: 30px;
+}
+
+/* END SECTION PAYMENT */
