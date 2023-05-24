@@ -120,12 +120,12 @@ button#catalog {
   display: flex;
   align-items: center;
   border: none;
-  padding: 4px 24px;
-  border-radius: 6px;
+  padding: 8px 28px;
+  border-radius: 8px;
 }
 
 button#catalog .icon {
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 /* END SECTION HERO */
@@ -134,8 +134,7 @@ button#catalog .icon {
 
 #quotes {
   background-color: #4D4D4D;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding: 30px 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,18 +210,78 @@ button#catalog .icon {
 
 /* END SECTION SLIDER */
 
-/* SECTION QUOTES */
+/* SECTION ADVANTAGE */
 
-#quotes {
-  background-color: #4D4D4D;
-  padding-top: 45px;
-  padding-bottom: 45px;
+#advantage {
+  background-color: #FB4A00;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#advantage > h1 {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 35px;
+  padding: 10px 50px;
+}
+
+#advantage > article {
+  background-color: white;
+  padding: 40px 180px;
+  border-radius: 18px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#quotes .span-quotes {
+.text-advantage {
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+.point {
+  margin-bottom: 20px;
+}
+
+.title-point {
+  display: flex;
+  align-items: center;
+}
+
+.title-point img {
+  vertical-align: middle;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.title-point span {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.desc-point {
+  margin-left: 45px;
+  opacity: 0.6;
+}
+
+/* END SECTION ADVANTAGE */
+
+/* SECTION QUOTES */
+
+#quotes-2 {
+  background-color: #848080;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quotes-2 .span-quotes {
   font-size: 25px;
   font-weight: 400;
   text-align: center;
