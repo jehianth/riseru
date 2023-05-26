@@ -19,8 +19,10 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 - [x] Routing Page
 - [x] Form Log In and Sign Up
 - [x] Semantic HTML5
-- [x] JS Implemented
+- [x] Categorizing Products
+- [x] Select Products
 - [x] Flex CSS
+select products
 
 ## Color Reference
 
