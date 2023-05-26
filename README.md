@@ -14,6 +14,14 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 
 **Server:** -
 
+## Features
+
+- [x] Routing Page
+- [x] Form Log In and Sign Up
+- [x] Semantic HTML5
+- [x] JS Implemented
+- [x] Flex CSS
+
 ## Color Reference
 
 | Color             | Hex                                                                |
@@ -28,4 +36,3 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 - [Jehian](https://www.github.com/jehianth)
 - [Bagus](https://github.com/bagusws17)
 - Fadhil
-
