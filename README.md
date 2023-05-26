@@ -10,7 +10,7 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JS, Owl Carousel
+**Client:** HTML, CSS, JS, Owl Carousel (JQuery Plugin)
 
 **Server:** -
 
