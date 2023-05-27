@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 * {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
@@ -28,11 +30,11 @@ nav {
   text-decoration: none;
 }
 
-.links a:hover {
-    color: orange;
+.links a:hover, .right-item a:hover, .fa-cart-shopping:hover, .fa-heart:hover, .fa-envelope:hover, .fa-phone-volume:hover {
+    color: #FB4A00;
 }
 
-.links img {
+.links img, .fa-heart {
     margin: 0 20px;
 }
 
@@ -40,22 +42,13 @@ nav {
     margin: 0 0;
 }
 
-.links .wishlist {
-    margin-left:25px;
-    margin-right:20px;
-}
-
-.links #login {
+.links #loginButton {
   margin: 3px 10px 3px 20px;
 }
 
-.icon {
-    transition: fill 0.3s ease;
-    }
-
-.icon:hover {
-    fill: gray;
-    }
+.links i {
+  color: #362e2c;
+}
 
 button.out-orange, button.orange:hover {
   background: none;
@@ -75,6 +68,73 @@ button.orange, button.out-orange:hover {
   border-radius: 6px;
   font-size: 16px;
 }
+
+/* POPUP */
+
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10000;
+}
+
+.popup h2 {
+  text-align: center;
+}
+
+.popup a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.show {
+  display: block;
+}
+
+/* .popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 412px;
+  background: white;
+  padding: 25px 30px 30px 25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+}
+
+.popup .email {
+  margin-bottom: 18px;
+}
+
+.popup .password {
+  margin-bottom: 12px;
+}
+
+.popup .remembernforgot {
+  margin-bottom: 40px;
+} */
+
+/* END POPUP */
 
 /* END HEADER */
 
@@ -124,8 +184,9 @@ button#catalog {
   border-radius: 8px;
 }
 
-button#catalog .icon {
+.fa-circle-play {
   margin-right: 10px;
+  color: white;
 }
 
 /* END SECTION HERO */
@@ -429,8 +490,47 @@ footer > .footer-item > .left > h4 {
   margin-top: 10px;
 }
 
-footer > .title-footer {
-  
+.title-footer {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.8;
+}
+
+.fa-envelope, .fa-phone-volume {
+  color: #cccccc;
+}
+
+.right {
+  display: flex;
+}
+
+.right-item {
+  margin-left: 50px;
+}
+
+.right-item a, .right-item span {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-bottom: 12px;
+}
+
+.icon-footer {
+  margin-top: -12px;
+}
+
+.right-item a {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.right-item i {
+  grid-column: 1;
+  padding-top: 10px;
+  padding-right: 5px;
 }
 
 hr {
