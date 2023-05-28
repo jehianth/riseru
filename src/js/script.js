@@ -33,7 +33,7 @@ overlay.addEventListener("click", () => {
   popupSignup.classList.remove("show");
 });
 
-// Password Visibility
+// Password Visibility (Login Page)
 const passwordInput = document.getElementById("password");
 const passwordToggle = document.getElementById("password-toggle");
 
@@ -48,6 +48,23 @@ passwordToggle.addEventListener("click", function () {
     passwordToggle.classList.add("fa-eye-slash");
   }
 });
+
+// Password Visibility (Sign Up Page)
+const signupPasswordInput = document.getElementById("signup-password");
+const signupPasswordToggle = document.getElementById("signup-password-toggle");
+
+signupPasswordToggle.addEventListener("click", function () {
+  if (signupPasswordInput.type === "password") {
+    signupPasswordInput.type = "text";
+    signupPasswordToggle.classList.remove("fa-eye-slash");
+    signupPasswordToggle.classList.add("fa-eye");
+  } else {
+    signupPasswordInput.type = "password";
+    signupPasswordToggle.classList.remove("fa-eye");
+    signupPasswordToggle.classList.add("fa-eye-slash");
+  }
+});
+
 
 var catalogButton = document.getElementById("catalog");
 var sliderSection = document.getElementById("slider");
