@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   font-family: "Poppins", sans-serif;
@@ -21,8 +21,8 @@ nav {
 }
 
 .links {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .links a {
@@ -30,16 +30,22 @@ nav {
   text-decoration: none;
 }
 
-.links a:hover, .right-item a:hover, .fa-cart-shopping:hover, .fa-heart:hover, .fa-envelope:hover, .fa-phone-volume:hover {
-    color: #FB4A00;
+.links a:hover,
+.right-item a:hover,
+.fa-cart-shopping:hover,
+.fa-heart:hover,
+.fa-envelope:hover,
+.fa-phone-volume:hover {
+  color: #fb4a00;
 }
 
-.links img, .fa-heart {
-    margin: 0 20px;
+.links img,
+.fa-heart {
+  margin: 0 20px;
 }
 
 .links .no-margin {
-    margin: 0 0;
+  margin: 0 0;
 }
 
 .links #loginButton {
@@ -50,18 +56,20 @@ nav {
   color: #362e2c;
 }
 
-button.out-orange, button.orange:hover {
+button.out-orange,
+button.orange:hover {
   background: none;
   border: none;
-  box-shadow: inset 0 0 0 1.5px #FB4A00;
-  color: #FB4A00;
+  box-shadow: inset 0 0 0 1.5px #fb4a00;
+  color: #fb4a00;
   padding: 4px 24px;
   border-radius: 6px;
   font-size: 16px;
 }
 
-button.orange, button.out-orange:hover {
-  background-color: #FB4A00;
+button.orange,
+button.out-orange:hover {
+  background-color: #fb4a00;
   color: white;
   border: none;
   padding: 4px 24px;
@@ -118,12 +126,14 @@ button.orange, button.out-orange:hover {
   margin-bottom: 18px;
 }
 
-.popup .email label, .popup .password label{
+.popup .email label,
+.popup .password label {
   font-weight: 500;
   margin-bottom: 10px;
 }
 
-.popup .email .input-group, .popup .password .input-group {
+.popup .email .input-group,
+.popup .password .input-group {
   display: flex;
   align-items: center;
   border-radius: 10px;
@@ -131,11 +141,13 @@ button.orange, button.out-orange:hover {
   overflow: hidden;
 }
 
-.popup .email .input-group:focus-within, .popup .password .input-group:focus-within {
-  border-color: #0078FF;
+.popup .email .input-group:focus-within,
+.popup .password .input-group:focus-within {
+  border-color: #0078ff;
 }
 
-.popup .email .input-group i, .popup .password .input-group .prefix-icon {
+.popup .email .input-group i,
+.popup .password .input-group .prefix-icon {
   padding-left: 16px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -143,7 +155,8 @@ button.orange, button.out-orange:hover {
   color: #999;
 }
 
-.popup .email .input-group input, .popup .password .input-group input {
+.popup .email .input-group input,
+.popup .password .input-group input {
   flex: 1;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -175,7 +188,8 @@ button.orange, button.out-orange:hover {
   width: 20px;
 }
 
-.popup .remember-group label, .agree label {
+.popup .remember-group label,
+.agree label {
   color: rgba(0, 0, 0, 0.6);
   margin-left: 8px;
 }
@@ -194,8 +208,10 @@ button.orange, button.out-orange:hover {
   margin-top: 40px;
 }
 
-.popup .forgot-password a, #switchToSignup, #switchToLogin{
-  color: #0078FF;
+.popup .forgot-password a,
+#switchToSignup,
+#switchToLogin {
+  color: #0078ff;
   text-decoration: none;
   margin-top: 0px;
   display: inline-block;
@@ -207,7 +223,9 @@ button.orange, button.out-orange:hover {
   margin-top: 24px;
 }
 
-.popup .forgot-password a:hover, #switchToSignup:hover, #switchToLogin:hover {
+.popup .forgot-password a:hover,
+#switchToSignup:hover,
+#switchToLogin:hover {
   text-decoration: underline;
 }
 
@@ -289,7 +307,9 @@ section#hero {
   height: auto;
 }
 
-.title-hero, .span-hero, button#catalog {
+.title-hero,
+.span-hero,
+button#catalog {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -333,7 +353,7 @@ button#catalog {
 /* SECTION QUOTES */
 
 #quotes {
-  background-color: #4D4D4D;
+  background-color: #4d4d4d;
   padding: 30px 0;
   display: flex;
   justify-content: center;
@@ -359,8 +379,16 @@ button#catalog {
   transform: scale(1.15);
   opacity: 1;
   background: #ff9966; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff5e62,
+    #ff9966
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff5e62,
+    #ff9966
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
 }
 .slider-card {
@@ -413,7 +441,7 @@ button#catalog {
 /* SECTION ADVANTAGE */
 
 #advantage {
-  background-color: #FB4A00;
+  background-color: #fb4a00;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -504,8 +532,8 @@ button#catalog {
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 40px;
-  color: #FB4A00;
-  border: 1.5px solid #FB4A00;
+  color: #fb4a00;
+  border: 1.5px solid #fb4a00;
   border-radius: 35px;
   padding: 10px 50px;
 }
@@ -542,21 +570,21 @@ button#catalog {
 }
 
 .order-button {
-  position: absolute; 
-  top: 50%; 
-  left: 50%; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   background: none;
   border: none;
-  box-shadow: inset 0 0 0 1.5px #FB4A00;
-  color: #FB4A00;
+  box-shadow: inset 0 0 0 1.5px #fb4a00;
+  color: #fb4a00;
   padding: 4px 24px;
   border-radius: 6px;
   font-size: 16px;
 }
 
 .order-button:hover {
-  background-color: #FB4A00;
+  background-color: #fb4a00;
   color: white;
   border: none;
   padding: 4px 24px;
@@ -574,7 +602,7 @@ button#catalog {
 /* SECTION PAYMENT */
 
 #payment {
-  background-color: #EFEFEF;
+  background-color: #efefef;
   padding: 30px 0;
   display: flex;
   justify-content: center;
@@ -636,7 +664,8 @@ footer > .footer-item > .left > h4 {
   opacity: 0.8;
 }
 
-.fa-envelope, .fa-phone-volume {
+.fa-envelope,
+.fa-phone-volume {
   color: #cccccc;
 }
 
@@ -648,7 +677,8 @@ footer > .footer-item > .left > h4 {
   margin-left: 50px;
 }
 
-.right-item a, .right-item span {
+.right-item a,
+.right-item span {
   display: grid;
   grid-template-columns: auto 1fr;
   margin-bottom: 12px;

@@ -1,7 +1,4 @@
-function goToLink(url) {
-  window.location.href = url;
-}
-
+// Pop Up Auth
 const loginButton = document.getElementById("loginButton");
 const signupButton = document.getElementById("signupButton");
 const overlay = document.getElementById("overlay");
@@ -36,46 +33,53 @@ overlay.addEventListener("click", () => {
   popupSignup.classList.remove("show");
 });
 
-// JavaScript code to toggle password visibility
-const passwordInput = document.getElementById('password');
-const passwordToggle = document.getElementById('password-toggle');
+// Password Visibility
+const passwordInput = document.getElementById("password");
+const passwordToggle = document.getElementById("password-toggle");
 
-passwordToggle.addEventListener('click', function () {
-  if (passwordInput.type === 'password') {
-    passwordInput.type = 'text';
-    passwordToggle.classList.remove('fa-eye-slash');
-    passwordToggle.classList.add('fa-eye');
+passwordToggle.addEventListener("click", function () {
+  if (passwordInput.type === "password") {
+    passwordInput.type = "text";
+    passwordToggle.classList.remove("fa-eye-slash");
+    passwordToggle.classList.add("fa-eye");
   } else {
-    passwordInput.type = 'password';
-    passwordToggle.classList.remove('fa-eye');
-    passwordToggle.classList.add('fa-eye-slash');
+    passwordInput.type = "password";
+    passwordToggle.classList.remove("fa-eye");
+    passwordToggle.classList.add("fa-eye-slash");
   }
 });
 
+var catalogButton = document.getElementById("catalog");
+var sliderSection = document.getElementById("slider");
+
+catalogButton.addEventListener("click", function () {
+  sliderSection.scrollIntoView({ behavior: "smooth" });
+});
+
 // Owlcarousel
-$(document).ready(function(){
+$(document).ready(function () {
   $(".owl-carousel").owlCarousel({
-  	loop:true,
-    margin:10,
-    nav:true,
-	autoplay:true,
-    autoplayTimeout:3000,
-    autoplayHoverPause:true,
+    loop: true,
+    margin: 10,
+    nav: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: true,
     center: true,
     navText: [
-	    "<i class='fa fa-angle-left'></i>",
-	    "<i class='fa fa-angle-right'></i>"
-	],
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:3
-        }
-    }
+      "<i class='fa fa-angle-left'></i>",
+      "<i class='fa fa-angle-right'></i>",
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 3,
+      },
+    },
   });
 });
