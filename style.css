@@ -89,14 +89,10 @@ button.orange, button.out-orange:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #fff;
-  padding: 20px;
+  padding: 25px 30px 30px 25px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
   z-index: 10000;
-}
-
-.popup h2 {
-  text-align: center;
 }
 
 .popup a {
@@ -109,30 +105,173 @@ button.orange, button.out-orange:hover {
   display: block;
 }
 
-/* .popup {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 412px;
-  background: white;
-  padding: 25px 30px 30px 25px;
-  box-sizing: border-box;
-  border-radius: 10px;
-  box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+.popup .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup .aggree {
+  display: inline-flex;
 }
 
 .popup .email {
   margin-bottom: 18px;
 }
 
+.popup .email label, .popup .password label{
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.popup .email .input-group, .popup .password .input-group {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.popup .email .input-group:focus-within, .popup .password .input-group:focus-within {
+  border-color: #0078FF;
+}
+
+.popup .email .input-group i, .popup .password .input-group .prefix-icon {
+  padding-left: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 12px;
+  color: #999;
+}
+
+.popup .email .input-group input, .popup .password .input-group input {
+  flex: 1;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  outline: none;
+}
+
 .popup .password {
   margin-bottom: 12px;
 }
 
+.popup .password .input-group .suffix-icon {
+  padding-right: 16px;
+  cursor: pointer;
+  color: #999;
+}
+
 .popup .remembernforgot {
+  display: flex;
+  align-items: center;
+}
+
+.popup .remember-group {
+  display: flex;
+  align-items: center;
+}
+
+.popup .remember-group input {
+  width: 20px;
+}
+
+.popup .remember-group label, .agree label {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 8px;
+}
+
+.popup .forgot-password {
+  margin-left: auto;
+}
+
+.login-button-form {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 0;
+  margin-top: 40px;
+}
+
+.popup .forgot-password a, #switchToSignup, #switchToLogin{
+  color: #0078FF;
+  text-decoration: none;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.switch {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-top: 24px;
+}
+
+.popup .forgot-password a:hover, #switchToSignup:hover, #switchToLogin:hover {
+  text-decoration: underline;
+}
+
+.hr-form {
+  color: black;
+  position: relative;
+  margin-top: 35px;
+}
+
+.hr-form.signup {
   margin-bottom: 40px;
-} */
+}
+
+.orwith {
+  color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 78.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.orwith.signup {
+  top: 19.5%;
+}
+
+.option-login {
+  margin-top: 35px;
+  margin-left: 12px;
+}
+
+.option-login.signup {
+  margin-top: 0px;
+}
+
+.option-login button {
+  color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.option-login .google-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.option-login .facebook-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 10px;
+}
+
+.option-login img {
+  margin-right: 8px;
+}
+
+.option-login .facebook {
+  margin-top: -2px;
+}
 
 /* END POPUP */
 

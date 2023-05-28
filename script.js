@@ -36,6 +36,22 @@ overlay.addEventListener("click", () => {
   popupSignup.classList.remove("show");
 });
 
+// JavaScript code to toggle password visibility
+const passwordInput = document.getElementById('password');
+const passwordToggle = document.getElementById('password-toggle');
+
+passwordToggle.addEventListener('click', function () {
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+    passwordToggle.classList.remove('fa-eye-slash');
+    passwordToggle.classList.add('fa-eye');
+  } else {
+    passwordInput.type = 'password';
+    passwordToggle.classList.remove('fa-eye');
+    passwordToggle.classList.add('fa-eye-slash');
+  }
+});
+
 // Owlcarousel
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({

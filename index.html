@@ -39,14 +39,95 @@
     </header>
     <div id="overlay"></div>
     <div id="popupLogin" class="popup">
-        <h2>Login</h2>
-        <a href="#" id="switchToSignup">Don't have an account? Sign up</a>
-            <!-- Add login form here -->
+        <form action="#" method="post">
+            <div class="form-group email">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="form-group password">
+                <label for="password">Password</label>
+                <div class="input-group">
+                    <i class="fa-solid fa-lock prefix-icon"></i>
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <i class="fa-solid fa-eye-slash suffix-icon" id="password-toggle"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="remembernforgot">
+                    <div class="remember-group">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group button">
+                <button class="login-button-form">Log In</button>
+            </div>
+        </form>
+        <div class="switch"><span class="switchToSignup">Don't have an account?</span>
+        <a href="#" id="switchToSignup">Sign up</a></div>
+        <div class="orwith-container">
+            <hr class="hr-form">
+            <span class="orwith">Or with</span>
+        </div>
+        <div class="option-login">
+            <button class="google-button">
+                <img src="google.svg">
+                Google
+            </button>
+            <button class="facebook-button">
+                <img class="facebook" src="facebook.svg">
+                Facebook
+            </button>
+        </div>
     </div>
     <div id="popupSignup" class="popup">
-        <h2>Sign Up</h2>
-        <a href="#" id="switchToLogin">Already have an account? Login</a>
-        <!-- Add signup form here -->
+        <div class="option-login signup">
+            <button class="google-button">
+                <img src="google.svg">
+                Google
+            </button>
+            <button class="facebook-button">
+                <img class="facebook" src="facebook.svg">
+                Facebook
+            </button>
+        </div>
+        <div class="orwith-container">
+            <hr class="hr-form signup">
+            <span class="orwith signup">Or with</span>
+        </div>
+        <form action="#" method="post">
+            <div class="form-group email">
+                <label for="email">Email</label>
+                <div class="input-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+            </div>
+            <div class="form-group password">
+                <label for="password">Password</label>
+                <div class="input-group">
+                    <i class="fa-solid fa-lock prefix-icon"></i>
+                    <input type="password" id="password" placeholder="Enter your password">
+                    <i class="fa-solid fa-eye-slash suffix-icon" id="password-toggle"></i>
+                </div>
+            </div>
+            <div class="agree">
+                <input type="checkbox" id="remember">
+                <label for="remember">I agree to all Term and Privacy Policy</label>
+            </div>
+            <div class="form-group button">
+                <button class="login-button-form">Sign Up</button>
+            </div>
+        </form>
+        <div class="switch"><span class="switchToSignup">Already have an account?</span>
+        <a href="#" id="switchToLogin"> Log In</a></div>
     </div>
     <main>
         <section id="hero">
