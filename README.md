@@ -16,13 +16,30 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 
 ## Features
 
+1. HTML
 - [x] Routing Page
-- [x] Form Log In and Sign Up
-- [x] Semantic HTML5
-- [x] Categorizing Products
-- [x] Select Products
-- [x] Flex CSS
-select products
+- [x] Form Auth (Log In dan Sign Up)
+- [x] Element Semantic HTML5 untuk SEO
+- [x] Memory Friendly (Memakai file .svg untuk image)
+- [ ] Categorizing Products
+- [ ] Select Products
+2. CSS
+- [x] Flex Layouting
+3. JS
+- [x] Popup (Auth)
+- [x] Toggle (Password Peeker/Visibility)
+- [ ] Loader (setiap berpindah halaman)
+4. Other
+- [x] Poppins | Google Font
+- [x] Icons | Font Awesome
+- [x] Owl Carousel (JQuery Plugin untuk Slider Card)
+- [x] Directory Structure
+
+## Reference UI
+
+- [Kyou](https://kyou.id)
+- [Tokopedia](https://tokopedia.com)
+- [Dribbble | Raafi Gian](https://dribbble.com/raafig)
 
 ## Color Reference
 
