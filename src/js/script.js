@@ -1,3 +1,8 @@
+// Change URL Other Pages
+function changeURL() {
+  window.history.pushState("", "", "/404");
+}
+
 // Pop Up Auth
 const loginButton = document.getElementById("loginButton");
 const signupButton = document.getElementById("signupButton");
