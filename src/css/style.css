@@ -25,12 +25,12 @@ nav {
   align-items: center;
 }
 
-.links a, .links span a {
+.links a {
   color: black;
   text-decoration: none;
 }
 
-.links a:hover, .links span a:hover
+.links a:hover,
 .right-item a:hover,
 .fa-cart-shopping:hover,
 .fa-heart:hover,
