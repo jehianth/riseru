@@ -1,5 +1,5 @@
 // Remove Attribute Href on URL
-document.getElementById("remove-attr").removeAttribute("href");
+document.getElementById("hidden-link").style.display = "none";
 
 // Pop Up Auth
 const loginButton = document.getElementById("loginButton");
