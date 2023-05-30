@@ -309,7 +309,7 @@ section#hero {
 
 .title-hero,
 .span-hero,
-button#catalog {
+button#overview {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -332,7 +332,7 @@ button#catalog {
   margin-bottom: 19px;
 }
 
-button#catalog {
+button#overview {
   top: 210px;
   font-weight: 400;
   font-size: 16px;

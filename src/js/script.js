@@ -65,11 +65,11 @@ signupPasswordToggle.addEventListener("click", function () {
   }
 });
 
-
-var catalogButton = document.getElementById("catalog");
+// Smooth Scroll
+var overviewButton = document.getElementById("overview");
 var sliderSection = document.getElementById("slider");
 
-catalogButton.addEventListener("click", function () {
+overviewButton.addEventListener("click", function () {
   sliderSection.scrollIntoView({ behavior: "smooth" });
 });
 
