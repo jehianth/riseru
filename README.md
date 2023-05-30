@@ -35,11 +35,6 @@ Channel your hobbies by Purchasing your favorite Merchandise.
 - [x] Owl Carousel (JQuery Plugin untuk Slider Card)
 - [x] Directory Structure
 
-## Reference UI
-
-- [Kyou](https://kyou.id)
-- [Tokopedia](https://tokopedia.com)
-- [Dribbble | Raafi Gian](https://dribbble.com/raafig)
 
 ## Color Reference
 
