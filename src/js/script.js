@@ -1,8 +1,3 @@
-// Change URL Other Pages
-function changeURL() {
-  window.history.replaceState("", "", "/404");
-}
-
 // Pop Up Auth
 const loginButton = document.getElementById("loginButton");
 const signupButton = document.getElementById("signupButton");
@@ -70,15 +65,7 @@ signupPasswordToggle.addEventListener("click", function () {
   }
 });
 
-// Smooth Scroll
-var overviewButton = document.getElementById("overview");
-var sliderSection = document.getElementById("slider");
-
-overviewButton.addEventListener("click", function () {
-  sliderSection.scrollIntoView({ behavior: "smooth" });
-});
-
-// Owlcarousel
+// Owl Carousel
 $(document).ready(function () {
   $(".owl-carousel").owlCarousel({
     loop: true,
