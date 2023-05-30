@@ -634,6 +634,69 @@ button#catalog {
 
 /* END SECTION PAYMENT */
 
+/* For Containing Page */
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* LEGAL SECTION */
+
+.body-legal {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bg-legal {
+  background-color: #FEF9F5 ;
+}
+
+.row-legal {
+  display: flex;
+  margin:50px 216px 0 216px;
+  text-align: justify;
+}
+
+.column-legal {
+  flex: 50%;
+  padding: 0 80px 0 80px;
+}
+
+.column-legal h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding-bottom: 23px;
+}
+
+.column-legal h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 10px;
+  
+}
+.column-legal p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: justify;
+  padding-bottom: 21px;
+}
+
+.legal-title {
+  text-align: center;
+  padding-top: 44px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* END LEGAL SECTION */
+
 /* FOOTER */
 
 footer {
