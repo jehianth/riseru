@@ -1,6 +1,6 @@
 // Change URL Other Pages
 function changeURL() {
-  window.history.pushState("", "", "/404");
+  window.history.replaceState("", "", "/404");
 }
 
 // Pop Up Auth
